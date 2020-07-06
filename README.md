@@ -16,8 +16,12 @@ Word embeddings derived from humangenerated corpora inherit strong gender bias w
 You can find the detailed steps to implement Double-Hard Debias in [GloVe_Debias](./GloVe_Debias.ipynb)
 
 ### Evaluation
-We evaluated Double-Hard Debias and other debiasing approaches on [GloVe](https://nlp.stanford.edu/pubs/glove.pdf) and [Word2Vec](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) embeddings. Please check the results in [GloVe_Eval](./GloVe_Eval.ipynb)
+1. We evaluated Double-Hard Debias and other debiasing approaches on [GloVe](https://nlp.stanford.edu/pubs/glove.pdf) and [Word2Vec](https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf) embeddings. Please check the results in [GloVe_Eval](./GloVe_Eval.ipynb)
 and [Word2Vec_Eval](./Word2Vec_Eval.ipynb).
+2. If you want to replicate results on coreference systems, we recommend you:
+  - Download word embeddings
+  - Refer to [e2r-coref](https://github.com/kentonl/e2e-coref/tree/e2e) about training a end-to-end coreference system.
+  - Refer to [WinoBias](https://github.com/uclanlp/corefBias) about using WinoBias dataset to evaluate gender bias in coreference systems.
 
 
 ### Citing
