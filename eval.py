@@ -247,8 +247,8 @@ def evaluate_cate(wv, w2i, vocab, method="all", seed=None):
     print("Calculating categorization benchmarks")
     categorization_tasks = {
         "AP": fetch_AP(),
-#         "ESSLI_2c": fetch_ESSLI_2c(),
-#         "ESSLI_2b": fetch_ESSLI_2b(),
+        "ESSLI_2c": fetch_ESSLI_2c(),
+        "ESSLI_2b": fetch_ESSLI_2b(),
         "ESSLI_1a": fetch_ESSLI_1a(),
         "Battig": fetch_battig(),
         "BLESS": fetch_BLESS(),
